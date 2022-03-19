@@ -1,0 +1,225 @@
+.App {
+  text-align: left;
+  height: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App button{
+  color: #0E7C64;
+  font-size: calc(10px + 2vmin);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  align-items: left;
+}
+
+.App h1 {
+  color: #0E7C64;
+  font-size: calc(10px + 2vmin);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.App h2 {
+  color: #0E7C64;
+  font-size: calc(6px + 2vmin);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+
+.App p {
+  color: #0E7C64;
+  font-size: calc(2px + 2vmin);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.where-button-mask-small {
+  left: -100%;
+  width: calc(80px + 20vmax);
+  height: calc(80px + 20vmax);
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.where-button-mask-big {
+  left: -200%;
+  width: 100%;
+  height: 100%;
+  border-radius: 0%;
+  background-color: #ffffff;
+  transition-property: width, height, border-radius, background-color;
+  transition-duration: 0.5s;
+}
+
+.where-text {
+  color: #0E7C64;
+  font-size: calc(10px + 2vmin);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  text-decoration: none;
+}
+
+.App input {
+  outline: 0;
+  background: transparent;
+  text-align: center;
+}
+
+.where-button--1small {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  align-items: center;
+  width: calc(200px + 20vmin);
+  height: calc(200px + 20vmin);
+  border-radius: 50%;
+  text-align: center;
+  background:url("sunwolf.png") no-repeat center;
+  background-size: cover;
+  background-color: #fff0;
+  background-attachment: fixed;
+  cursor: pointer;
+  transition-property: top, left;
+  transition-duration: 0.8s;
+}
+
+.where-button-0small {
+  position: fixed;
+  top: 10%;
+  left: 65%;
+  display: grid;
+  align-items: center;
+  width: calc(200px + 20vmin);
+  height: calc(200px + 20vmin);
+  border-radius: 50%;
+  text-align: center;
+  background:url("sunwolf.png") no-repeat center;
+  background-size: cover;
+  background-color: #fff0;
+  background-attachment: fixed;
+  cursor: pointer;
+  transition-property: top, left;
+  transition-duration: 0.8s;
+}
+
+.where-button-1small {
+  position: fixed;
+  top: 40%;
+  left: 80%;
+  display: grid;
+  align-items: center;
+  width: calc(200px + 20vmin);
+  height: calc(200px + 20vmin);
+  border-radius: 50%;
+  text-align: center;
+  background:url("sunwolf.png") no-repeat center;
+  background-size: cover;
+  background-color: #fff0;
+  background-attachment: fixed;
+  cursor: pointer;
+  transition-property: top, left;
+  transition-duration: 0.8s;
+}
+
+.where-button-2small {
+  position: fixed;
+  top: 70%;
+  left: 9%;
+  display: grid;
+  align-items: center;
+  width: calc(200px + 20vmin);
+  height: calc(200px + 20vmin);
+  border-radius: 50%;
+  text-align: center;
+  background:url("sunwolf.png") no-repeat center;
+  background-size: cover;
+  background-color: #fff0;
+  background-attachment: fixed;
+  cursor: pointer;
+  transition-property: top, left;
+  transition-duration: 0.8s;
+}
+
+.where-button--1big {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  display: grid;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0%;
+  text-align: center;
+  background:url("sunwolf.png") no-repeat center;
+  background-size: cover;
+  background-color: #fff0;
+  background-attachment: fixed;
+  transition-property: width, height, border-radius, top, left;
+  transition-duration: 0.8s;
+}
+
+.where-button-0big {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  display: grid;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0%;
+  text-align: center;
+  background:url("sunwolf.png") no-repeat center;
+  background-size: cover;
+  background-color: #fff0;
+  background-attachment: fixed;
+  transition-property: width, height, border-radius, top, left;
+  transition-duration: 0.8s;
+}
+
+.where-button-1big {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  display: grid;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0%;
+  text-align: center;
+  background:url("sunwolf.png") no-repeat center;
+  background-size: cover;
+  background-color: #fff0;
+  background-attachment: fixed;
+  transition-property: width, height, border-radius, top, left;
+  transition-duration: 0.8s;
+}
+
+.where-button-2big {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  display: grid;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0%;
+  text-align: center;
+  background:url("sunwolf.png") no-repeat center;
+  background-size: cover;
+  background-color: #fff0;
+  background-attachment: fixed;
+  transition-property: width, height, border-radius, top, left;
+  transition-duration: 0.8s;
+}

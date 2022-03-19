@@ -1,0 +1,260 @@
+.default {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    transition: width 0.8s;
+}
+
+.selected {
+    float: left;
+    width: 75%;
+    height: 100%;
+    transition: width 0.8s;
+}
+
+.inactive {
+    float: left;
+    width: 12.5%;
+    height: 100%;
+    transition: width 0.8s;
+}
+
+.left-column-button{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: max-content;
+    color: #0E7C64;
+    font-size: calc(10px + 2vmin);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    align-items: left;
+    -moz-user-select: none;  
+    -webkit-user-select: none;  
+    -ms-user-select: none;  
+    -o-user-select: none;  
+    user-select: none;
+}
+
+/* CHEVRONS */
+/* see here for more: https://codepen.io/sosuke/pen/Pjoqqp */
+.chevron-container {
+    display: inline-block;
+    transform: translateY(0.2vmin);
+    cursor: pointer;
+}
+
+.chevron-left-false {
+    width: calc(2px + 2vmin);
+    height: calc(2px + 2vmin);
+    margin-right: 5px;
+    margin-left: 10px;
+    content: "";
+    background: url("../chevron.png") no-repeat 0 0;
+    background-size: 100%;
+    filter: brightness(0) saturate(100%) invert(35%) sepia(15%) saturate(3022%) hue-rotate(122deg) brightness(99%) contrast(89%);
+    transform: rotate(0deg);
+    transition: transform 0.1s;
+}
+
+.chevron-left-true {
+    display: inline-block;
+    width: calc(2px + 2vmin);
+    height: calc(2px + 2vmin);
+    margin-right: 5px;
+    margin-left: 10px;
+    content: "";
+    background: url("../chevron.png") no-repeat 0 0;
+    background-size: 100%;
+    filter: brightness(0) saturate(100%) invert(35%) sepia(15%) saturate(3022%) hue-rotate(122deg) brightness(99%) contrast(89%);
+    transform: rotate(90deg);
+    transition: transform 0.1s;
+}
+
+/* see here for more: https://codepen.io/sosuke/pen/Pjoqqp */
+.chevron-middle-false {
+    display: inline-block;
+    width: calc(2px + 2vmin);
+    height: calc(2px + 2vmin);
+    margin-right: 5px;
+    margin-left: 10px;
+    content: "";
+    background: url("../chevron.png") no-repeat 0 0;
+    background-size: 100%;
+    filter: brightness(0) saturate(100%) invert(26%) sepia(66%) saturate(757%) hue-rotate(191deg) brightness(97%) contrast(98%);
+    transform: rotate(0deg);
+    transition: transform 0.1s;
+}
+
+.chevron-middle-true {
+    display: inline-block;
+    width: calc(2px + 2vmin);
+    height: calc(2px + 2vmin);
+    margin-right: 5px;
+    margin-left: 10px;
+    content: "";
+    background: url("../chevron.png") no-repeat 0 0;
+    background-size: 100%;
+    filter: brightness(0) saturate(100%) invert(26%) sepia(66%) saturate(757%) hue-rotate(191deg) brightness(97%) contrast(98%);
+    transform: rotate(90deg);
+    transition: transform 0.1s;
+}
+
+/* see here for more: https://codepen.io/sosuke/pen/Pjoqqp */
+.chevron-right-false {
+    display: inline-block;
+    width: calc(2px + 2vmin);
+    height: calc(2px + 2vmin);
+    margin-right: 5px;
+    margin-left: 10px;
+    content: "";
+    background: url("../chevron.png") no-repeat 0 0;
+    background-size: 100%;
+    transform: rotate(0deg);
+    transition: transform 0.1s;
+}
+
+.chevron-right-true {
+    display: inline-block;
+    width: calc(2px + 2vmin);
+    height: calc(2px + 2vmin);
+    margin-right: 5px;
+    margin-left: 10px;
+    content: "";
+    background: url("../chevron.png") no-repeat 0 0;
+    background-size: 100%;
+    transform: rotate(90deg);
+    transition: transform 0.1s;
+}
+
+/* TEXT STYLING */
+.left-col-header {
+    animation: column-header-animation 0.6s;
+    color: #0E7C64;
+    font-size: calc(6px + 2vmin);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.left-col-paragraph {
+    animation: column-paragraph-animation 0.6s;
+    color: #0E7C64;
+    font-size: calc(2px + 2vmin);
+    padding-left: 20px;
+    padding-right: 30vmin;
+    padding-top: 20px;
+}
+
+.left-col-link-button {
+    animation: column-paragraph-animation 0.6s;
+    color: #0E7C64;
+    font-size: calc(2px + 2vmin);
+    padding-left: 20px;
+    padding-right: 30vmin;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.middle-column-button{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: max-content;
+    color: #314D9E;
+    font-size: calc(10px + 2vmin);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    align-items: left;
+    -moz-user-select: none;  
+    -webkit-user-select: none;  
+    -ms-user-select: none;  
+    -o-user-select: none;  
+    user-select: none;
+}
+
+.middle-col-header {
+    animation: column-header-animation 0.6s;
+    color: #314D9E;
+    font-size: calc(6px + 2vmin);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.middle-col-paragraph {
+    animation: column-paragraph-animation 0.6s;
+    color: #314D9E;
+    font-size: calc(2px + 2vmin);
+    padding-left: 20px;
+    padding-right: 30vmin;
+    padding-top: 20px;
+}
+
+.right-column-button{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: max-content;
+    color: #FFFFFF;
+    font-size: calc(10px + 2vmin);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    align-items: left;
+    -moz-user-select: none;  
+    -webkit-user-select: none;  
+    -ms-user-select: none;  
+    -o-user-select: none;  
+    user-select: none;
+}
+
+.right-col-header {
+    animation: column-header-animation 0.6s;
+    color: #FFFFFF;
+    font-size: calc(6px + 2vmin);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.right-col-paragraph {
+    animation: column-paragraph-animation 0.6s;
+    color: #FFFFFF;
+    font-size: calc(2px + 2vmin);
+    padding-left: 20px;
+    padding-right: 30vmin;
+    padding-top: 20px;
+}
+
+@keyframes column-header-animation {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes column-paragraph-animation {
+    0% {
+        opacity: 0%;
+        font-size: 0px;
+    }
+    20% {
+        opacity: 0%;
+        font-size: calc(2px + 2vmin);
+    }
+    100% {
+        opacity: 100%;
+        font-size: calc(2px + 2vmin);
+    }
+}
