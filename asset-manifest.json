@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.d54ed377.css",
-    "main.js": "/static/js/main.67dab151.js",
+    "main.css": "/static/css/main.5ec77534.css",
+    "main.js": "/static/js/main.78a03f8e.js",
     "static/media/sunwolf.png": "/static/media/sunwolf.f82ebc9f81b540621155.png",
     "static/media/chevron.png": "/static/media/chevron.f03f5b115bafabd42bd7.png",
     "index.html": "/index.html",
-    "main.d54ed377.css.map": "/static/css/main.d54ed377.css.map",
-    "main.67dab151.js.map": "/static/js/main.67dab151.js.map"
+    "main.5ec77534.css.map": "/static/css/main.5ec77534.css.map",
+    "main.78a03f8e.js.map": "/static/js/main.78a03f8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d54ed377.css",
-    "static/js/main.67dab151.js"
+    "static/css/main.5ec77534.css",
+    "static/js/main.78a03f8e.js"
   ]
 }
